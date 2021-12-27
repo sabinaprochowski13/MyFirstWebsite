@@ -1,0 +1,177 @@
+.container {
+	margin: 5px;
+}
+
+.customDonationBtn {
+	position: absolute;
+	right: 1px;
+}
+
+.row{
+	margin-left: 2px;
+	margin-right: 2px;
+}
+
+.header{
+	background-color: #B1A296;
+	padding: 10px;
+	font-size: 25pt;
+	font-style: italic;
+	text-align: center;
+}
+
+.carousel {
+    padding: 0px;
+    margin: 0px;
+}
+
+.you{
+	font-size: 18pt;
+	text-align: center;
+	font-style: italic;
+	background-color: #B1A296;
+	padding-bottom: 5px;
+}
+
+.mailingHead{
+	font-size: 14pt;
+	font-style: italic;
+	text-align: center;
+	padding-bottom: 10px;
+}
+
+.customHeight{
+    height : 600px;
+}
+
+.customMailRow {
+	padding: 30px;
+	background-color: #B1A296;
+}
+
+.card {
+    margin: 0 auto;
+    float: none; 
+    margin-bottom: 50px;
+}
+
+@media only screen
+  and (min-device-width: 50px)
+  and (max-device-width: 990px) {
+
+  	.header{
+	background-color: #B1A296;
+	padding: 10px;
+	font-size: 20pt;
+	font-style: italic;
+	text-align: center;
+	}
+
+	.customDonationBtn{
+      position : static;
+      width : 150px;
+    }
+
+    .footer {
+    	padding-bottom: 10px;
+    }
+
+    .footer2 {
+    	padding-bottom: 10px;
+    }
+}
+
+.picHeight{
+	height: 200px;
+}
+
+.footer {
+	padding-top: 60px;
+	background-color: #f8e1cf;
+	padding-bottom: 60px;
+}
+
+.li {
+	text-align: right;
+}
+
+.fb {
+	text-align: left;
+}
+
+.cc {
+	text-align: right;
+	font-style: normal;
+}
+
+.col-md-4{
+	background-color: #B1A296;
+}
+
+.dykt-head{
+	background-color: #B1A296;
+}
+
+.dykt {
+	font-size: 25pt;
+	font-style: italic;
+	margin-left: 20px;
+	padding-bottom: 20px;
+}
+
+.anilist h3{
+	padding-top: 50px;
+	font-style: italic;
+	text-align: center;
+}
+
+.col-md-6 h1{
+	font-size: 14pt;
+	text-align: center;
+	padding-bottom: 20px;
+	font-style: italic;
+}
+
+.send{
+	padding-top: 10px;
+}
+
+.footer2{
+	padding-top: 100px;
+	width: 100%;
+	padding-bottom: 20px;
+}
+
+.donate h1{
+	font-size: 14pt;
+	font-style: italic;
+}
+
+.donationSuggestions{
+  min-width : 100px;
+  width : 100%;
+  height : 60px;
+  background-color : rgba(0,0,0,.2)
+}
+
+.contribute {
+	margin-top: 20px;
+	text-align: center;
+	padding: 5px;
+	margin-bottom: 30px;
+}
+
+.smallPrint {
+	font-style: italic;
+	font-size: 10pt;
+}
+
+.off{
+	position: absolute;
+	right: 10px;
+}
+
+.reminder{
+	display: flex;
+}
+
