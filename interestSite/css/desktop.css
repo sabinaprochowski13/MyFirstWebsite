@@ -1,0 +1,314 @@
+body{
+	background-color: #ffcb82;
+	padding : 0px;
+	margin : 0px;
+}
+
+#wrap{
+	border : solid 1px black;
+	width : 1024px;
+	margin : 0 auto;
+}
+
+header{
+	border : solid 1px black;
+	width : 100%;
+	background: url('../images/pierogies.jpg') no-repeat center center fixed;
+	  -webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
+}
+
+#logo{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 5px;
+	margin: 15px;
+}
+
+#logo a:link{
+	text-decoration: none;
+	color: blue;
+	font-weight: bold;
+	font-family:"Rockwell";
+	text-transform: uppercase;
+	font-size: 20pt;
+}
+
+#logo a:hover{
+	color: pink;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+#logo a:visited{
+	color : black;
+	font-size: 20pt;
+}
+
+#logo a:focus{
+	color : purple;
+	font-size: 22pt;
+}
+
+#logo a:active{
+	color : black;
+}
+
+nav{
+	margin: 15px;
+	border : solid 1px black;
+}
+
+nav ul{
+	list-style : none;
+	padding : 0px;
+	margin : 0px;
+}
+
+nav ul li{
+	border : solid 2px black;
+	text-align : center;
+	margin: auto;
+	border-radius: 1em;
+	width: 150px ;
+	height: 20px;
+}
+
+nav ul li a:link{
+	text-decoration: none;
+	color: blue;
+	font-weight: bold;
+	font-family:"Rockwell";
+	font-size: 12pt;
+}
+
+nav ul li a:hover{
+	color: pink;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+nav ul li a:visited{
+	color : black;
+	font-size: 12pt;
+}
+
+nav ul li a:focus{
+	color : purple;
+	font-size: 16pt;
+}
+
+nav ul li a:active{
+	color : black;
+}
+
+.About{
+	display : flex;
+	min-height : 42vh;
+	font-family:"Monaco";
+	font-size: 12pt;
+	display : flex;
+	justify-content: center;
+	align-items: center;
+	border : solid 1px black;
+}
+
+.content{
+	flex-grow : 1;
+	max-width : 50%;
+	min-width : 50%;
+	padding-left: 5px;
+}
+
+#favMeal {
+	flex-grow : 1;
+	max-width : 49%;
+	min-width : 49%;
+	padding-left: 5px;
+}
+
+.Inspo {
+	font-family: Papyrus;
+	font-style: bold;
+	border : solid 1px black;
+}
+
+#two{
+	display: flex;
+}
+
+.Mom {
+	border : solid 1px black;
+	display : flex;
+	flex-grow : 1;
+	max-width : 50%;
+	min-width : 50%;
+	min-height : 36vh;
+	font-family: "Monaco";
+	font-size: 12pt;
+	padding-left: 5px;
+	justify-content: center;
+	align-items: center;
+	padding-top: 5px;
+}
+
+.favLinks {
+	flex-grow : 1;
+	max-width : 48.7%;
+	min-width : 48.7%;
+	min-height : 46vh;
+	font-family: "Monaco";
+	font-size: 12pt;
+	padding-left: 5px;
+	padding-top: 5px;
+	border : solid 1px black;
+}
+
+footer{
+	border : solid 1px black;
+	width : 1024px;
+	font-family: "Monaco";
+}
+
+.mailingListInput {
+	border : solid 1px black;
+	text-align: center;
+	margin: 10px;
+	padding: 5px;
+}
+
+#socialMedia{
+	list-style : none;
+	padding : 0px;
+	margin : 10px;
+	border : solid 1px black;
+
+	display : flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#socialMedia li{
+	margin : 5px;
+	border : solid 1px black;
+	padding: 5px;
+}
+
+.socialMediaQuickLinkBar{
+	border : solid 1px black;
+	width : 60px;
+	height : 105px;
+	position : fixed;
+	right : 0px;
+	top : 30%;
+}
+
+.socialMediaQuickLinkBar ul{
+	list-style :none;
+	padding : 0px;
+	margin : 5px;
+	display : flex;
+	flex-direction : column;
+	align-items: center;
+}
+
+.socialMediaQuickLinkBar ul li{
+	border : solid 1px black;
+	height : 25px;
+	padding: 10px;
+}
+
+#mainArea{
+	padding-top: 10px;
+	text-align: center;
+	font-family: Monaco;
+	font-size: 11pt;
+}
+
+#contact_pg{
+	text-align: center;
+  	margin-left: auto;
+  	margin-right: auto;
+  	width: 70%;
+}
+
+.contentRow{
+	border : solid 1px black;
+	display : flex;
+	min-height : 40vh;
+	font-family: Monaco;
+}
+
+.contentImage{
+	flex-grow : 1;
+	max-width : 50%;
+	min-width : 50%;
+	padding: 4px;
+}
+
+.contentText{
+	flex-grow : 1;
+	max-width : 50%;
+	min-width : 50%;
+	padding: 2px;
+}
+
+#food{
+	border : solid 1px black;
+	display : flex;
+	min-height : 40vh;
+	font-family: Monaco;
+}
+
+.ingredients{
+	flex-grow : 1;
+	max-width : 32%;
+	min-width : 32;
+	margin : 5px;
+	padding: 2px;
+}
+
+.how{
+	flex-grow : 1;
+	max-width : 32%;
+	min-width : 32%;
+	margin : 5px;
+	padding: 2px;
+}
+
+.pic{
+	flex-grow : 1;
+	max-width : 32%;
+	min-width : 32%;
+	margin : 5px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#desserts {
+	display : flex;
+	flex-direction : column;
+	min-height : 25vh;
+	text-align: center;
+}
+
+#head{
+	font-size: 35px;
+	color: white;
+	font-family: Lucida Handwriting;
+	font-weight: bolder;
+}
+
+.fav {
+	flex-grow : 1;
+	font-family: Monaco;
+}
+
+.inner {
+	text-decoration-line: underline;
+  	text-decoration-style: wavy;
+}
+

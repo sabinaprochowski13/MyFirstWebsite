@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Welcome to my Interest Site</title> 
+		<!-- Media query for narrow browser width -->
+		<link rel="stylesheet" media="only screen and (max-width: 480px)" href="css/mobile.css">
+
+		<!-- Media query for medium browser width -->
+		<link rel="stylesheet" media="only screen and (min-width: 481px) and (max-width: 960px)" href="css/tablet.css">
+
+		<!-- Media query for full browser width -->
+		<link rel="stylesheet" media="only screen and (min-width: 961px)" href="css/desktop.css">
+
+		<!-- Prevent smartphones from scaling pages down -->
+		<meta name="viewport" content="initial-scale=1">
+	</head>
+	<body>
+		<div class="socialMediaQuickLinkBar">
+			<ul>	
+				<li>
+					<a href="https://www.linkedin.com/in/sabinaprochowski/">
+						<img src="images/li2.png" width="30px" height="auto"/>
+					</a>
+				</li>
+				<li>
+					<a href="https://www.facebook.com/sprochowski.xx/">
+						<img src="images/fb2.png" width="30px" height="auto"/>
+					</a>
+				</li>
+			</ul>
+		</div>
+
+		<div id="wrap">
+			<header>
+				<div id="logo">
+					<a href= "index.html">Sab's Polish Cooking</a>
+				</div>
+				<div id="navLinks">
+					<nav>
+						<ul>
+							<li>
+								<a href= "index.html">Home</a>
+							</li>
+							<li>
+								<a href= "howTo.html">How-To</a>
+							</li>
+							<li>
+								<a href= "favorites.html">Favorites</a>
+							</li>
+							<li>
+								<a href= "desserts.html">Desserts</a>
+							</li>
+							<li>
+								<a href= "feedback.html">Feedback</a>
+							</li>
+						</ul>
+					</nav>
+				</div>
+			</header>
+
+		<div id="mainArea">
+			<form method="POST" action="thanks.html">
+			<section id= "form_intro">
+				Hello! Do you have any questions for me? I would love some feedback whether that be on ideas for my Interest site, new recipes, etc. (:
+			</section>
+
+		<table width="600px" border="1" id="contact_pg">
+			<tr>
+				<td>Your Name:</td>
+				<td>
+					<input type="text" placeholder="Enter your name here" name="name" style="height:50px;"/> 
+				</td>
+			</tr>
+			<tr>
+				<td>Your Email Address:</td>
+				<td>
+					<input type="text" placeholder="Enter your email here" name="email" style="height:50px;"/> 
+				</td>
+			</tr>
+			<tr>
+				<td>Your Message:</td>
+				<td>
+					<textarea placeholder="Enter your message here" cols="23" rows="9" name="message"></textarea>
+				</td>
+			</tr>
+			<tr>
+				<td>Availability:</td>
+				<td>
+					<input type="checkbox" name="day" value="m"/> Monday
+					<input type="checkbox" name="day" value="t"/> Tuesday
+					<input type="checkbox" name="day" value="w"/> Wednesday
+					<input type="checkbox" name="day" value="th"/> Thursday
+					<input type="checkbox" name="day" value="f"/> Friday
+				</td>
+			</tr>
+			<tr>
+				<td>Time of Day:</td>
+				<td>
+					<input type="checkbox" name="time_of_day" value="m"/> Morning
+					<input type="checkbox" name="time_of_day" value="t"/> Afternoon
+					<input type="checkbox" name="time_of_day" value="w"/> Evening
+				</td>
+			</tr>
+			<tr>
+				<td>Feedback:</td>
+				<td>
+					<textarea placeholder="Enter feedback here" cols="23" rows="9" name="feedback"></textarea>
+				</td>
+			</tr>
+			<tr>
+				<td>Clear/Send:</td>
+				<td>
+					<input type="reset" value="Clear" />
+					<input type="submit" value="Send" />
+				</td>
+			</tr>
+		</table>
+	</form>
+			</div>
+			<footer>
+				<div id="subscribe">
+					<div class="mailingListInput">
+					Subscribe to the mailing list to get updates when Sab's Polish Cooking has new content and recipes:
+					<input type="text"/>
+					</div>
+					<ul id="socialMedia">
+						<li>
+							<a href="https://www.linkedin.com/in/sabinaprochowski/">
+								<img src="images/li2.png" width="30px" height="auto"/>
+							</a>
+						</li>
+						<li>
+							<a href="https://www.facebook.com/sprochowski.xx/">
+								<img src="images/fb2.png" width="30px" height="auto"/>
+							</a>
+						</li>
+					</ul>
+				</div>
+			</footer>	
+		</div>
+	</body>
+</html>

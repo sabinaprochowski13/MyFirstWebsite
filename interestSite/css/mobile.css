@@ -1,0 +1,347 @@
+body{
+	background-color: #ffcb82;
+	padding : 0px;
+	margin : 0px;
+}
+
+#wrap{
+	border : solid 1px black;
+	width : 100vw;
+	margin : 0 auto;
+}
+
+header{
+	border : solid 1px black;
+	width : 100%;
+	background: url('../images/pierogies.jpg') no-repeat center center fixed;
+	  -webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
+}
+
+#logo{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 5px;
+	margin: 15px;
+}
+
+#logo a:link{
+	text-decoration: none;
+	color: blue;
+	font-weight: bold;
+	font-family:"Rockwell";
+	text-transform: uppercase;
+	font-size: 16pt;
+}
+
+#logo a:hover{
+	color: pink;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+#logo a:visited{
+	color : black;
+	font-size: 16pt;
+}
+
+#logo a:focus{
+	color : purple;
+	font-size: 18pt;
+}
+
+#logo a:active{
+	color : black;
+}
+
+nav{
+	margin: 15px;
+	border : solid 1px black;
+}
+
+nav ul{
+	list-style : none;
+	padding : 0px;
+	margin : 0px;
+}
+
+nav ul li{
+	border : solid 2px black;
+	text-align : center;
+	margin: auto;
+	border-radius: 1em;
+	width: 150px ;
+	height: 30px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+nav ul li a:link{
+	text-decoration: none;
+	color: blue;
+	font-weight: bold;
+	font-family:"Rockwell";
+	font-size: 10pt;
+}
+
+nav ul li a:hover{
+	color: pink;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+nav ul li a:visited{
+	color : black;
+	font-size: 10pt;
+}
+
+nav ul li a:focus{
+	color : purple;
+	font-size: 14pt;
+}
+
+nav ul li a:active{
+	color : black;
+}
+
+.About{
+	display : flex;
+	min-height : 50vh;
+	font-family:"Monaco";
+	font-size: 10pt;
+	display : flex;
+	flex-direction: column;
+	border : solid 1px black;
+}
+
+.content{
+	flex-grow : 1;
+	padding: 5px;
+}
+
+#favMeal {
+	flex-grow : 1;
+	padding-left: 5px;
+}
+
+.Inspo {
+	font-family: Papyrus;
+	font-style: bold;
+	border : solid 1px black;
+}
+
+#two{
+	display: flex;
+	flex-direction: column;
+}
+
+.Mom {
+	display : flex;
+	flex-grow : 1;
+	min-height : 25vh;
+	font-family: "Monaco";
+	font-size: 10pt;
+	padding-left: 5px;
+	justify-content: center;
+	align-items: center;
+}
+
+.favLinks {
+	flex-grow: 1;
+	min-height : 30vh;
+	font-family: "Monaco";
+	font-size: 10pt;
+	padding-left: 5px;
+	padding-top: 10px;
+}
+
+footer{
+	border : solid 1px black;
+	width : 100vw;
+	font-family: "Monaco";
+	font-size: 10pt;
+}
+
+.mailingListInput {
+	border : solid 1px black;
+	text-align: center;
+	margin: 10px;
+	padding: 5px;
+}
+
+#socialMedia{
+	list-style : none;
+	padding : 0px;
+	margin : 10px;
+	border : solid 1px black;
+	display : flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#socialMedia li{
+	margin : 5px;
+	border : solid 1px black;
+	padding: 5px;
+}
+
+.socialMediaQuickLinkBar{
+	border : solid 1px black;
+	width : 60px;
+	height : 105px;
+	position : fixed;
+	right : 0px;
+	top : 30%;
+	display: none;
+}
+
+.socialMediaQuickLinkBar ul{
+	list-style :none;
+	padding : 0px;
+	margin : 5px;
+	display : flex;
+	flex-direction : column;
+	align-items: center;
+}
+
+.socialMediaQuickLinkBar ul li{
+	border : solid 1px black;
+	height : 25px;
+	padding: 10px;
+}
+
+#mainArea{
+	padding-top: 10px;
+	text-align: center;
+	font-family: Monaco;
+	font-size: 10pt;
+}
+
+#contact_pg{
+	text-align: center;
+  	margin-left: auto;
+  	margin-right: auto;
+  	width: 70%;
+}
+
+.contentRow{
+	border : solid 1px black;
+	display : flex;
+	flex-direction : column;
+	min-height : 60vh;
+	font-family: Monaco;
+}
+
+.contentImage{
+	border : solid 1px black;
+	flex-grow : 1;
+	
+}
+
+.contentText{
+	border : solid 1px black;
+	flex-grow : 1;
+	
+}
+
+#food{
+	font-family: Monaco;
+	margin : 5px;
+	padding: 2px;
+	font-size: 10pt;
+}
+
+#desserts {
+	display : flex;
+	flex-direction : column;
+	min-height : 25vh;
+}
+
+#head{
+	font-size: 35px;
+	color: white;
+	font-family: Lucida Handwriting;
+	font-weight: bolder;
+	text-align: center;
+}
+
+.fav {
+	flex-grow : 1;
+	font-family: Monaco;
+}
+
+.inner {
+	text-decoration-line: underline;
+  	text-decoration-style: wavy;
+  	display: flex;
+  	justify-content: center;
+  	text-align: center;
+}
+
+#contact_pg{
+	text-align: center;
+  	margin-left: auto;
+  	margin-right: auto;
+  	width: 100vw;
+}
+
+.contentRow{
+	min-height : 40vh;
+	font-family: Monaco;
+	display : flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.contentImage{
+	flex-grow : 1;
+	display : flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.contentText{
+	flex-grow : 1;
+	padding: 2px;
+}
+
+#food{
+	font-family: Monaco;
+	margin : 5px;
+	padding: 2px;
+}
+
+#desserts {
+	display : flex;
+	flex-direction : column;
+	min-height : 20vh;
+}
+
+#head{
+	font-size: 30px;
+	color: white;
+	font-family: Lucida Handwriting;
+	font-weight: bolder;
+	text-align: center;
+	border : solid 1px white;
+}
+
+.fav {
+	flex-grow : 1;
+	font-family: Monaco;
+	font-size: 10pt;
+}
+
+.inner {
+	text-decoration-line: underline;
+  	text-decoration-style: wavy;
+  	text-align: left;
+}
+
+
+
+
