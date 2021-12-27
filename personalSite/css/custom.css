@@ -1,0 +1,107 @@
+/* CSS comments are like this */
+@font-face {
+  font-family: customFont1;
+  src: url('../fonts/Prisma.otf');
+}
+
+html{
+	background: url('../images/background.jpg') no-repeat center center fixed;
+	  -webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
+	  background-size: 100%;
+}
+
+header{
+	font-family: customFont1;
+	color:white;
+	font-size:20pt;
+	letter-spacing:10px;
+	background-color: gray;
+	padding : 0px;
+	text-align: center;
+}
+
+#wrap{
+	background-color: rgb(255, 228, 225, 0.5)
+}
+
+#mainArea{
+	background-color: rgb(201,202,255,0.3);
+	font-family: "Optima";
+	font-size: 12pt;
+	padding-bottom: 50px;
+}
+
+a:link{
+	color : red;
+	text-decoration : none;
+	font-weight: bold;
+	font-family:"Rockwell";
+	text-transform: uppercase;
+}
+
+a:hover{
+	color: pink;
+	text-decoration: underline;
+}
+
+a:visited{
+	color : blue;
+	font-size: 18pt;
+}
+
+a:focus{
+	color : purple;
+	font-size: 14pt;
+}
+
+a:active{
+	color : black;
+}
+
+nav{
+
+}
+
+nav ul{
+	list-style : none;
+	padding : 0px;
+	margin : 0px;
+	display : flex;
+}
+
+nav ul li{
+	border : solid 2px white;
+
+	flex-grow : 1;
+	max-width : 25%;
+	text-align : center;
+
+	padding-top : 10px;
+	padding-bottom : 10px;
+}
+
+nav ul li:hover{
+	background-color : white;
+	cursor : pointer;
+}
+
+nav ul li a{
+
+}
+
+#socialMedia{
+	list-style : none;
+	padding : 0px;
+	margin : 10px;
+
+	display : flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#socialMedia li{
+	margin : 5px;
+}

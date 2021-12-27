@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Welcome to my Personal Website</title> 
+		<link rel="icon" type="images/png" href="images/favIcon.png"> 
+		<link rel="stylesheet" href="css/custom.css"/>
+		<style type="text/css">
+		 #contact_pg{
+		 	text-align: center;
+  			margin-left: auto;
+  			margin-right: auto;
+  			width: 70%;
+		 }
+		 #form_intro {
+		 	padding: 30px;
+		 }
+
+		</style>
+	</head>
+	<body>
+		<div id="wrap">
+			<header>
+				<h1>Welcome to my Contact Page!</h1>
+			</header>
+			<nav>
+				<ul>
+					<li>
+						<a href="index.html">Home</a>
+					</li>
+					<li>
+						<a href="about.html">About Me</a>
+					</li>
+					<li>
+						<a href="contact.html">Contact</a>
+					</li>
+					<li>
+						<a href="../index.html">Back to Portfolio</a>
+					</li>
+				</ul>
+			</nav>
+			<div id="mainArea">
+				<form method="POST" action="thanks.html">
+				<section id= "form_intro">
+					Hello! Do you have any questions for me? Fill out the form below if you would like to contact me whether that is to say hello or to recommend some professional opportunities. Let me know when is the best time to reach you. Any feedback on my website is always welcome, as well. I hope to talk to you soon! (:
+				</section>
+		<table width="600px" border="1" id="contact_pg">
+			<tr>
+				<td>Your Name:</td>
+				<td>
+					<input type="text" placeholder="Enter your name here" name="name" style="height:50px;"/> 
+				</td>
+			</tr>
+			<tr>
+				<td>Your Email Address:</td>
+				<td>
+					<input type="text" placeholder="Enter your email here" name="email" style="height:50px;"/> 
+				</td>
+			</tr>
+			<tr>
+				<td>Your Message:</td>
+				<td>
+					<textarea placeholder="Enter your message here" cols="50" rows="15" name="message"></textarea>
+				</td>
+			</tr>
+			<tr>
+				<td>Availability:</td>
+				<td>
+					<input type="checkbox" name="day" value="m"/> Monday
+					<input type="checkbox" name="day" value="t"/> Tuesday
+					<input type="checkbox" name="day" value="w"/> Wednesday
+					<input type="checkbox" name="day" value="th"/> Thursday
+					<input type="checkbox" name="day" value="f"/> Friday
+				</td>
+			</tr>
+			<tr>
+				<td>Time of Day:</td>
+				<td>
+					<input type="checkbox" name="time_of_day" value="m"/> Morning
+					<input type="checkbox" name="time_of_day" value="t"/> Afternoon
+					<input type="checkbox" name="time_of_day" value="w"/> Evening
+				</td>
+			</tr>
+			<tr>
+				<td>Feedback:</td>
+				<td>
+					<textarea placeholder="Enter feedback here" cols="50" rows="10" name="feedback"></textarea>
+				</td>
+			</tr>
+			<tr>
+				<td>Clear/Send:</td>
+				<td>
+					<input type="reset" value="Clear" />
+					<input type="submit" value="Send" />
+				</td>
+			</tr>
+		</table>
+	</form>
+			</div>
+			<footer>
+				<section>
+					<ul id="socialMedia">
+						<li>
+							<a href="https://www.linkedin.com/in/sabinaprochowski/">
+								<img src="images/li.png" width="50px" height="auto"/>
+							</a>
+						</li>
+						<li>
+							<a href="https://www.facebook.com/sprochowski.xx/">
+								<img src="images/fb.png" width="50px" height="auto"/>
+							</a>
+						</li>
+					</ul>
+				</section>
+			</footer>
+		</div>
+	</body>
+</html>
