@@ -1,0 +1,119 @@
+@font-face {
+  font-family: nameFont;
+  src: url('../fonts/name1.ttf');
+}
+
+@font-face {
+  font-family: studentFont;
+  src: url('../fonts/student.ttf');
+}
+
+@font-face {
+  font-family: cardHead;
+  src: url('../fonts/Schoolgirls.otf');
+}
+
+.card-img-top {
+    width: 100%;
+    height: 15vw;
+    object-fit: cover;
+}
+
+.ME{
+	padding-top: 80px;
+	padding-bottom: 80px;
+}
+
+#sabina{
+	font-family: nameFont;
+	font-size: 35pt;
+	letter-spacing: 2px;
+	padding-top: 10px;
+}
+
+#student{
+	font-family: studentFont;
+	font-size: 20pt;
+}
+
+.allSites{
+	padding-bottom: 60px;
+}
+
+#inTouch{
+	text-align: center;
+	font-family: cardHead;
+	font-size: 25pt;
+	padding-top: 20px;
+}
+
+.card-title{
+	font-family: cardHead;
+	font-size: 20pt;
+	text-align: center;
+}
+
+.card-text{
+	font-family: Georgia;
+	font-size: 14pt;
+}
+
+#aboutme{
+	font-family: Garamond;
+	font-size: 16pt;
+}
+
+.submit{
+	padding-top: 15px;
+	text-align: center;
+	padding-bottom: 80px;
+}
+
+.socials{
+	text-align: center;
+	padding-left: 25px;
+	padding-right: 0px;
+}
+
+.first, .second, .third{
+	background-color:#2978b5;
+	padding-top: 25px;
+	padding-bottom: 10px;
+}
+
+.li{
+	text-align: right;
+}
+
+.fb{
+	text-align: left;
+}
+
+.hi, .li, .fb, .lo {
+	background-color: #b6c9f0;
+	padding-top: 50px;
+	padding-bottom: 40px;
+}
+
+.form-label{
+	font-family: Georgia;
+	font-size: 12pt;
+	font-weight: bold;
+}
+
+#exampleFormControlInput{
+	font-family: Georgia;
+}
+
+.input-group-text{
+	font-family: Georgia;
+	font-weight: bold;
+}
+
+.copyright{
+	text-align: center;
+	padding-left: 25px;
+	padding-right: 0px;
+	font-family: Georgia;
+	font-weight: bold;
+}
